@@ -64,3 +64,18 @@ function imc2(peso, altura) {
 
 imc2(70, 1.60); // retorna o imc
 console.log(imc2(70, 1.60)); // retorna o imc e undefined
+
+// Verifica se um número é par
+function isEven (num) {
+  var mod = num % 2;
+  if (mod ===0) {
+  return true;
+}else {
+  return false
+}
+}
+
+// Verificando o tipo de dado
+function tipoDado (dado) {
+  return typeof dado;
+}
